@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "@hardhat/*": [
+                "EttiosApp/hardhat/*"
+            ],
+        }
+    },
+    "exclude": [
+        "dist",
+        "node_modules"
+    ],
+    "include": [
+        "./hardhat.config.ts",
+        "./scripts",
+        "./deploy",
+        "./test",
+        "./src",
+        "types.ts",
+        "./EttiosApp/hardhat/typechain/**/*",
+    ],
+    "files": [
+        "./hardhat.config.ts"
+    ]
+}

@@ -1,0 +1,27 @@
+# Dependency directory
+node_modules
+_build
+build
+
+# local env variables
+.env
+*.secret
+*.out
+
+# truffle build directory
+build/
+.openzeppelin/.session
+
+#hardhat files
+cache
+artifacts
+
+#OS
+.DS_Store
+
+#nextjs
+.next
+**/.next
+**/.next/**
+EttiosApp/.next
+EttiosApp/.next/**
